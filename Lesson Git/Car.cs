@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson_Git
 {
-    class Car
+   public class Car
     {
         #region Variables
         Double mileage;
@@ -38,14 +38,7 @@ namespace Lesson_Git
             get { return mileage; }
            private set { }
         }
-
         
-
-
-
-
-    
-
         #endregion
 
         #region Methods
