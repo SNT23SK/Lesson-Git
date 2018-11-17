@@ -112,5 +112,21 @@ namespace UnitTestLesson_Git
             #endregion
         }
 
+        [TestMethod]
+        public void TestTravel_100_Mealage_100()
+        {
+            #region Arrange
+            Car rabbit = new Car();
+            
+            #endregion
+            #region Action
+           rabbit.Travel(100);
+            #endregion
+
+            #region Assert
+            Assert.AreEqual(rabbit.Mileage, 100);
+            #endregion
+        }
+
     }
 }
